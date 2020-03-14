@@ -1,0 +1,81 @@
+header .pedido {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  height: 39px; }
+  header .pedido h3 {
+    padding: 10px;
+    font-size: small; }
+header .opciones {
+  width: 100%;
+  display: inline-flex; }
+  header .opciones .logo {
+    width: 20%; }
+  header .opciones .productos {
+    width: 800px; }
+    header .opciones .productos ul {
+      display: inline-flex;
+      width: 100%; }
+      header .opciones .productos ul li {
+        display: block;
+        width: 15%;
+        padding: 10px; }
+        header .opciones .productos ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 12px; }
+  header .opciones .botones {
+    padding: 24px 14px; }
+    header .opciones .botones img {
+      width: 10px; }
+    header .opciones .botones button {
+      display: contents;
+      font-size: 10px; }
+    header .opciones .botones .carrito {
+      margin: 1px;
+      width: 8px;
+      float: right;
+      padding: 3px 4px;
+      background-color: red;
+      color: white;
+      border-radius: 100%; }
+    header .opciones .botones h1 {
+      width: 4%;
+      margin: 0%;
+      font-size: x-small;
+      padding: 11%; }
+
+.banner {
+  background-color: #79d2d2; }
+  .banner img {
+    margin: 38px 114px;
+    width: 84%; }
+
+.platos .columna1 {
+  padding: 0px 100px;
+  display: inline-flex; }
+  .platos .columna1 div {
+    width: 25%; }
+  .platos .columna1 img {
+    height: 80%;
+    width: 85%;
+    padding: 10px 28px; }
+.platos .columna2 {
+  padding: 0px 100px;
+  display: inline-flex; }
+  .platos .columna2 div {
+    width: 25%; }
+  .platos .columna2 img {
+    height: 80%;
+    width: 85%;
+    padding: 10px 28px; }
+
+.piepagina {
+  height: 80px;
+  background-color: #79d2d2;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 25px 0px; }
+
+/*# sourceMappingURL=main.css.map */

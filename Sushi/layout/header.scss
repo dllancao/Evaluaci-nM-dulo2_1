@@ -1,0 +1,73 @@
+header {
+    .pedido{
+        background-color: black;
+        color: white;
+        margin: 0px;
+        height: 39px;
+
+        h3{
+            padding: 10px;
+            font-size: small;
+    }
+    
+    }
+    .opciones{
+        width: 100%;
+        display: inline-flex;
+
+        .logo{
+            width: 20%;
+        }
+
+        .productos{
+            width: 800px;
+
+                ul{
+                    display: inline-flex;
+                    width: 100%;
+
+                li{
+                    display: block;
+                    width: 15%;
+                    padding: 10px;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 12px;
+
+                }
+
+            }
+
+        }
+    }   
+       .botones{
+            padding: 24px 14px;
+
+            img{
+                width: 10px;
+            }
+
+            button{
+                display: contents;
+                font-size: 10px;
+            }
+            .carrito{
+                margin: 1px;
+                width: 8px;
+                float: right;
+                padding: 3px 4px;
+                background-color: red;
+                color: white;
+                border-radius: 100%;
+                }
+                h1{
+                    width: 4%;
+                    margin: 0%;
+                    font-size: x-small;
+                    padding: 11%;
+            }
+       }
+    }
+}
